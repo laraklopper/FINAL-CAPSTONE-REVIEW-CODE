@@ -1,0 +1,131 @@
+/* PAGE4 */
+.page4Section1{
+    margin: 0px;
+    padding: 10px;
+    background-color: #0099cc;
+    border: #00384d solid;
+}
+/* USER ACCOUNT */
+#editAccount {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-style: solid;
+}
+#currentUserOutput{
+   
+        background-color: #1bb4ed;
+        border: black;
+        border: solid;
+        padding-right: 10px;
+        
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+}
+/* Layout */
+#userHeadCol {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.editUserBtnCol {
+    display: flex;
+    justify-content: flex-end;
+}
+/* Text */
+#userAccountHead{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+/* Buttons */
+#toggleUserEditBtn{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    width: 180px;
+}
+/* EDIT USER FORM */
+/* layout */
+.editUserBtnRow {
+    padding: 10px;
+
+        margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+}
+.editUserCol {
+    display: flex;
+    margin-left: 0px;
+    flex-direction: row;
+}
+/* Input */
+.editUserInput {
+    padding: 5px;
+    border-radius: 5px;
+}
+.editUserLabel {
+    display: flex;
+    align-items: baseline;
+    color: black;
+}
+
+
+.editUserHead {
+    text-align: center;
+    color: black;
+}
+/*USER LIST DISPLAY  */
+/* layout */
+.userOutputCol{
+    display: flex;
+    margin: 0px;
+    align-items: baseline;
+}
+.user{
+    background: #00a8e6;;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    display: block;
+    border: black;
+    border-style: solid;
+}
+.userData{
+    display: flex;
+    align-items: baseline;
+}
+.outputText{
+    font-weight: 800;
+    color: black;
+}
+/* BUTTONS */
+.deleteUserBtn{
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: system-ui;
+        
+}
+#userDisplayBtn {
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 180px;
+        color: black;
+}

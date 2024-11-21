@@ -1,0 +1,210 @@
+/* Section 1 */
+/* Layout */
+
+/* QUIZ DISPLAY*/
+#startQuizForm{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* background-color: #157291; */
+    background: linear-gradient(45deg, #00ACE6 0%, #005571 46%, #4AC2B9 100%);
+    padding: 10px;
+    border: solid;
+}
+.startQuizRow{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+}
+#quiz{
+    background-color: #7D8EA0;
+    border-color: black;
+    border-style: solid;
+    padding: 10px
+}
+.quizNameCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* SELECT QUIZ*/
+#selectQuizLayout{
+    display: flex;
+    background-color: #157291;
+}
+/* Layout */
+#selectQuizCol {
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+    padding: 5px;
+    background-color: #25bb6d;
+    /* background-color: #157291; */
+    border: 5px solid black;
+    border-radius: 2px;
+}
+/* Buttons */
+.questions{
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+}
+
+#questionText{
+        font-weight: 800;
+            text-transform: capitalize;
+            font-size: 16px;
+}
+.questionCol{
+    margin: 0px;
+        padding: 0px;
+        display: block;
+}
+.questionRow{
+    width: 100%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+}
+.option{
+        display: block;
+            margin: 5px;
+            padding: 1px;
+}
+#quizOption {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.options{
+    display: flex;
+        align-items: baseline;
+        flex-direction: column;
+}
+.optionsRow{
+    display: flex;
+        flex-direction: row;
+        width: 100%;
+}
+.optionCol{
+    display: flex;
+    align-items: baseline;
+        flex-direction: column; 
+            justify-content: center;
+                width: 33.33333333%;
+                
+              
+}
+#quizSelect{
+        display: flex;
+            margin-left: 10px;
+            align-items: center;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            padding: 5px;
+                text-align: center;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                
+}
+.question{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+/* StartQuizForm */
+
+/* QUIZ */
+#addTimerLabel{
+    display: flex;
+    align-items: baseline;
+
+}
+.quizName{
+        text-align: center;
+            text-transform: uppercase;
+            font-weight: 800;
+}
+.result {
+    padding: 4px;
+}
+.h6{
+        text-transform: uppercase;  
+}
+#quizDisplay{
+    background-color: #007878;
+    padding: 10px;
+    border-color: black;
+        border-style: solid;
+}
+.resultRow {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+#resultOutput{
+    border: none;
+    background-color: inherit;
+}
+.resultFormInput{
+    border: none;
+        background-color: inherit;
+        text-transform: uppercase;
+            font-weight: 800;
+                font-family: math;
+}
+.feedbackRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#quiz{
+background-color: #7D8EA0;
+border-color: black;
+    border-style: solid;
+
+}
+#selectQuizForm {
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #00ACE6;
+    /* background: linear-gradient(45deg, #00ACE6 0%, #005571 46%, #4AC2B9 100%); */
+}
+.answerOption {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: fit-content;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+}
+.questionOptionCol {
+    align-items: center;
+    padding: 10px;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+        border-radius: 20px;        
+}

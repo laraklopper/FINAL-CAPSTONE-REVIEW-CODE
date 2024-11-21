@@ -1,0 +1,152 @@
+/* EDIT QUIZ FORM */
+#editQuiz {
+    margin: 10px;
+    padding: 10px;
+    background-color: hsl(195, 75%, 35%);
+    border: 2px solid #000000;
+}
+.editQuizForm{
+    display: block;
+    border: solid black;
+    background-color: #3ca6c9;
+    padding: 5px;
+    margin: 5px;
+        border-radius: 10px;
+}
+/* Error */
+/* LAYOUT */
+.editQuizRow{
+    margin: 0px;
+    padding: 0px;
+}
+.editQuizCol {
+    display: flex;
+    margin-top: 5px;
+}
+.editQuizBtnRow{
+        margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+}
+.editQuestionRow{
+        margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 0px;
+}
+#editQuestionsHeadRow{
+        margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+}
+/* Edit quiz Name */
+/* EDIT QUESTIONS*/
+/* Heading */
+.editQuestionsHead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/* Layout */
+.editQuestions {
+    border-style: solid;
+    padding: 10px;
+    background-color: #3ca6c9;
+}
+.editQuestionCol {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+}
+#prevQuesBtnCol {
+    display: flex;
+    justify-content: flex-end;
+}
+#editQuesBtnCol {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+/* INPUT */
+.editField {
+    display: flex;
+    align-items: baseline;
+}
+.editQuizLabel {
+    display: flex;
+    border-radius: 5px;
+    align-items: baseline;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.editQuizInput {
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 0px;
+    padding: 5px;
+    float: right;
+    width: 280px;
+    text-align: center;
+}
+/* Edit alternative options */
+/* BUTTONS */
+.editQuestionBtn {
+    width: 150px;
+    font-weight: 800;
+        font-weight: 700;
+            color: black;
+}
+.editQuizButton {
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+/* Navigation Buttons */
+#editQuestionText {
+    width: 410px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 0px;
+    padding: 5px;
+    float: right;
+}
+#prevQuestionBtn{
+    font-weight: 700;
+    color: #000000;
+
+}
+
+
+#nextQuestionBtn {
+    font-weight: 700;
+    color: #000000;
+}

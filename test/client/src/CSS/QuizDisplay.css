@@ -1,0 +1,74 @@
+/* QUIZDISPLAY */
+/* START QUIZ FORM */
+#startQuizForm {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: linear-gradient(45deg, #00ACE6 0%, #005571 46%, #4AC2B9 100%);
+    padding: 10px;
+    border: solid;
+}
+.timerCol {
+    display: flex;
+    align-items: baseline;
+}
+/* Layout */
+/* Buttons */
+/* QUIZ */
+#quizDisplay{
+    background-color: #1bb4ed;
+}
+/* Layout */
+.quizNavRow {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+/* Feedback */
+.feedback {
+    text-align: center;
+    font-weight: 800;
+}
+/* Buttons */
+.answerOption{
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 700;
+    border: chocolate solid 5px;
+    border-style: solid;
+}
+#nextBtn{
+    margin-right: 5px;
+}
+/* RESULT DISPLAY */
+.result {
+    padding: 4px;
+}
+/* Layout */
+.resultRow {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+#saveScoreBtnCol{
+    display: flex;
+    justify-content: center;
+}
+/* Buttons */
+#saveScoreBtn{
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
