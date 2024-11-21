@@ -1,0 +1,230 @@
+body{
+  background-color: #006080;
+  margin: auto;
+  padding: auto;
+  display: grid;
+  width: 100%;
+}
+#root {
+  margin: 0px;
+  padding: 15px;
+  width: 100%;
+  display: grid;
+  background-color: #006080;
+}
+.appContainer {
+  /* background-color: #006385; */
+  background: linear-gradient(to bottom, #007AA2 10%, #0086b3 47%, #00536F 100%);
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
+  padding:9px;
+  width: 100%;
+
+}
+/* HEADER */
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  padding: 10px;
+  background-color:#0099cc
+}
+/* HEADINGS */
+.h1 {
+  font-family: cursive;
+  text-align: center;
+  color: #00394D;
+  font-weight: 800;
+}
+.h2{
+  text-align: center;
+  font-family: cursive;
+  font-weight: 800;
+}
+.h3 {
+  text-align: center;
+  font-weight: 600;
+  padding: 0px;
+}
+/* NAVIGATION BAR */
+
+.navigation {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px;
+}
+/* Layout */
+.navRow {
+  padding: 0px;
+  margin: 0px; 
+}
+.navCol {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* NAVIGATION LINKS */
+.linkText {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.linkItem {
+  padding: 2px;
+  text-decoration: none;
+}
+
+.refLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.section1 {
+  margin: 0px;
+  padding: 10px;
+  background-color: #006385
+}
+
+.labelText {
+  font-weight: 800;
+  font-family: cursive;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+/* REGISTRATION PAGE */
+.section2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+    padding: 10px;
+    display: block;
+    background-color: #0095C7
+}
+.h5{
+  text-align: center;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 5px;
+}
+/* RULES */
+.rulesHeading{
+      padding-right: 5px;
+        font-weight: 800;
+        margin: 0px;
+        padding-left: 0px;
+        padding-bottom: 5px;
+        padding-top: 2px;
+}
+.rulesCol {
+  margin: 0px;
+  padding: 0px;
+}
+.rulesList {
+  list-style-type: none;
+  background-color: #006385;
+  padding: 10px;
+  
+}
+.rule {
+  font-weight: 600;
+  font-family: sans-serif;
+  display: flex;
+  align-items: baseline;
+}
+
+/* PAGE FOOTER */
+.pageFooter {
+  background-color: #0095C7;
+  /* background-color: #006385; */
+  padding-top: 20px;
+  display: block;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.footerRow{
+      padding-top: 10px;
+        margin-top: 18px;
+        margin-bottom: 0px;
+      
+}
+/* Logout button */
+/* Layout */
+.logoutRow {
+  padding: 5px;
+  display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.logoutCol{
+    display: flex;
+      justify-content: flex-end;
+      padding-left: 0px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-left: 0px;
+      margin-right: 10px;
+      margin-top: 0px;
+}
+/* Button */
+#logoutBtn{
+  font-weight: 600;
+  color: black;
+  font-family: sans-serif;
+ width:180px ;
+}
+/* FORM HEADERS */
+/* Layout */
+.formHeaderRow{
+      margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
+}
+/* Text */
+#formHeading{
+  font-weight: 800;
+  font-family: cursive;
+  text-align: center;
+      color: #052b38;
+}
